@@ -1,0 +1,51 @@
+header {
+  height: 100vh;
+  width: auto;
+  background-image: url('./image/wdi7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+
+}
+
+#mask {
+  height: 92vh;
+  width: 100%;
+  position:absolute;
+  background-color: rgba(136,107,164, 0.5)
+}
+
+#main-title {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 7px -7px 15px #6b478e, 8px -5px 15px #FAE583;
+  padding-top: 50vh;
+  text-align: center;
+  font-size: 2em
+}
+
+@media (min-width: 723px) {
+  #main-title {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 7px -7px 15px #6b478e, 8px -5px 15px #FAE583;
+    padding-top: 50vh;
+    text-align: center;
+    font-size: 3.5em
+  }
+}
+
+#search-bar {
+  position: absolute;
+  top: 92vh;
+  height: 8vh;
+}
+
+#search {
+  margin-top: 50px;
+  min-height: 100vh
+}
+
+#graduates {
+  margin-top: 50px;
+  min-height: 100vh
+}
