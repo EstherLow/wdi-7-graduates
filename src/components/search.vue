@@ -4,7 +4,7 @@
     <div class="column">
       <div class="ui floating dropdown labeled icon button" id="show-button">
         <i class="filter icon"></i>
-        <span class="text">Filter Project</span>
+        <span class="text">Click and Select Projects to see</span>
         <div class="menu" id="projects-list">
           <div class="item" v-for="option in options" v-bind:value="option.value" v-on:click="filterProject(option.value)">{{ option.text }}</div>
         </div>

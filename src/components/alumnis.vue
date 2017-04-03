@@ -55,7 +55,7 @@
           }
 
           let username = vm.alumnis[i].githubLogin
-          axios.get('https://api.github.com/users/' + username + '?access_token=f4a57a2b13ca28eef00bfbf2e7f3319be78433d2').then(function (response){
+          axios.get('https://api.github.com/users/' + username + '?access_token='+process.env.API_KEY).then(function (response){
             tempProfile.push(response.data)
           }).catch(function (error) { console.log(error) })
           console.log('tempProfile', tempProfile);
