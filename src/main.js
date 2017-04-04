@@ -6,7 +6,6 @@ import App from './App2'
 import Search from './components/search'
 import Profiles from './components/profiles'
 import Alumnis from './components/alumnis'
-import VueRouter from 'vue-router'
 
 
 Vue.use(VueRouter)
