@@ -11,9 +11,7 @@
       <alumnis></alumnis>
     </div>
 
-    <div style="min-height: 200px; margin-left: 100px">
-      <profiles></profiles>
-    </div>
+
 
 
     <div id="search">

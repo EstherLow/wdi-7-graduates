@@ -8,7 +8,6 @@ import Profiles from './components/profiles'
 import Alumnis from './components/alumnis'
 
 
-Vue.use(VueRouter)
 
 
 Object.defineProperty(Vue.prototype, '$bus', {
@@ -20,10 +19,7 @@ Object.defineProperty(Vue.prototype, '$bus', {
 
 const bus = new Vue({})
 
-const routes = [
-  { path: '/alumnis', component: Alumnis},
-  { path: '/projects', component: Search}
-]
+
 
 /* eslint-disable no-new */
 new Vue({
