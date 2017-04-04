@@ -4,7 +4,6 @@ import Vue from 'vue'
 import '../static/semantic.min.css'
 import App from './App2'
 import Search from './components/search'
-import Profiles from './components/profiles'
 import Alumnis from './components/alumnis'
 
 
