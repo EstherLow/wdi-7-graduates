@@ -27,13 +27,12 @@
 
 <script>
 import Alumnis from './components/alumnis'
-import Profiles from './components/profiles'
 import Search from './components/search'
 
 export default {
   name: 'app',
   components: {
-    Alumnis, Profiles, Search
+    Alumnis, Search
   },
 }
 </script>
